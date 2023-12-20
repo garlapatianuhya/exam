@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <script>
+		    function fun(){
+			    var num1=parseFloat(document.getElementById("a")).value;
+			    var num2=parseFloat(document.getElemeentById("b").value;
+		            var sum=num1+num2
+		            document.getElementById("sum").innerHTML=sum;
+	          }
+            </script>
+    </head>
+    <body>
+	 <input type="text" id="a"/>
+	 <input type="text" id="b"/>
+	 <input type="submit" value="submit" onclick="fun()"/>
+	 <p id="sum" />
+    </body>
+</html>
